@@ -1,0 +1,34 @@
+.main_container{
+    border: 1px solid black;
+    background-image: url(./istockphoto-1266975549-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     padding: 50px;
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+
+
+.container{
+  text-align: center;
+  /* border: 1px solid red; */
+  position: relative;
+  width: 50%;
+  top: 10px;
+  left:500px
+}
+.btn button{
+  margin: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: blue;
+  color: aliceblue;
+}
+.btn button:nth-child(even){
+  background-color: red;
+}
+.btn button:hover{
+    cursor: pointer;
+}
